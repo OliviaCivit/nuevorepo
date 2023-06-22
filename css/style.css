@@ -21,49 +21,35 @@
 }
 
 
-header img {
-    height: 80px;
-    width: 80px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-header div {
-    display: flex;
+.barra-mia {
+    background-color:antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
 }
 
-nav ul li a {
-    color: thistle;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: underline 2px thistle;
-    font-size: 23px;
-    font-weight: normal;
-    font-style: normal;
-    margin-left: 120px;
+.fondo-adaptado {
+    background-image: url(../img/GettyImages-601902710.webp);
+    background-repeat: no-repeat;
 }
 
-.hover :hover{
-    color: lightcyan;
-}
 
-ul li {
-    display: inline-block;
-    margin-top: 30px;
-}
-
-h1 {
+section main div h1 {
     color: white;
+    font-family: 'Instrument Serif', serif;
+    text-align: left;
     margin-left: 20px;
-    margin-right: 700px;
     padding-top: 80px;
     font-size: 40px;
 }
 
 section main p {
     color: white;
+    font-family: 'Oswald', sans-serif;
     margin-left: 30px;
-    margin-right: 700px;
+    
     margin-top: 50px;
     font-size: 20px;
+    text-align: justify;
 }
 
 main div h1 {
