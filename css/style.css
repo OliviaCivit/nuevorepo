@@ -14,6 +14,7 @@
     background-size: cover;
 }
 
+
 .fondo2 {
     background-color: beige;
     background-size: cover;
@@ -57,12 +58,12 @@ main div h1 {
     font-size: 30px;
 }
 
-main iframe {
-    height: 250px;
-    width: 250px;
+main div iframe {
+    
     margin-top: 50px;
     margin-left: 15px;
 }
+
 
 ol li {
     color: black;
