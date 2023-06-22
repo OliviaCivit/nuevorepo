@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
     <title>Gimnasio</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
@@ -12,21 +14,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Instrument+Serif&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body class="fondo2">
-    <header>
-        <div>
-            <img src="../img/logo.jpg" alt="">
-        
-            <nav class="hover">
-             <ul>
-                <li> <a href="../index.html">INICIO</a></li>
-                <li> <a href="./piernas.html">PIERNAS</a></li>
-                <li> <a href="./bicepstriceps.html">BICEPS - TRICEPS</a></li>
-                <li> <a href="./hombrospecho.html">HOMBROS - PECHO</a></li>
-                <li> <a href="./espalda.html">ESPALDA</a></li>
-             </ul>
-            </nav>
-    </div>
-    </header>
+
+    <nav class="navbar navbar-expand-lg barra-mia">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./piernas.html">PIERNAS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bicepstriceps.html">BICEPS-TRICEPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./hombrospecho.html">HOMBROS-PECHO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./espalda.html">ESPALDA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
 
 <main>
     <div>
@@ -34,86 +50,208 @@
         <h1> Enfoque cuadriceps</h1>
         
         <h3>Sentadilla</h3>
-        <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/Ur-zj6AiO44" title="SENTADILLAS CON BARRA MUSCULOS IMPLICADOS | CORRECTA EJECUCION DE  LA SENTADILLA CON BARRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Si bien aquí hacemos enfoque en los cuadriceps, la sentadilla como ejercicio involucra el trabajo de mas musculos, tales como los isquiotibiales, el gluteo mayor y los aductores. De pie, con la mirada al frente, con los pies apuntando ligeramente hacia afuera y algo más separados que las caderas, se sujeta la barra en pronación tras la cabeza sobre el trapecio y deltoides. Se baja flexionando las rodillas en dirección a los pies hasta que los muslos queden casi paralelos al suelo. El abdomen y el lumbar han de permanecer fuertemente contraídos. Los talones no se levantan. Se inspira al comenzar a bajar, se bloquea en inspiración y se espira al terminar de subir; se debe ventilar bien y repetir. Errores frecuentes: arquear la espalda en uno u otro sentido, dirigir las rodillas fuera de su eje de movimiento natural, bajar demasiado o realizar el ejercicio pesado sin ayuda de un compañero, extender los brazos a lo largo de la barra, apoyar la barra en partes óseas y no musculares, rebotar al bajar, bloquear al subir, sacar/dejar la barra del soporte forzando la espalda y adelantar mucho las rodillas, más que los pies en la bajada.</p>
-        </div>
         
-        <h3>Peso muerto</h3>
-        <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/VLW-vK6ZF94" title="PESO MUERTO CORRECTA EJECUCION | MUSCULOS IMPLICADOS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Colócate de pie y abre las piernas en línea con la cadera y los hombros, colocando los pies ligeramente hacia afuera para ayudar al equilibrio.Con la espalda completamente recta, flexiona ligeramente las rodillas.Comienza a descender el cuerpo con la espalda recta e intentando que los muslos queden paralelos al cuerpo y los pies y la parte inferior de las piernas en ángulo recto.Mirando hacia el frente, mueve a la vez los hombros y la cadera al mismo tiempo que asciendes. Errores frecuentes: arquear la espalda al bajar, doblar las rodillas y trabajar con peso inadecuado</p>
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ur-zj6AiO44"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Si bien aquí hacemos enfoque en los cuadriceps, la sentadilla como ejercicio involucra el trabajo de mas musculos, tales como los isquiotibiales, el gluteo mayor y los aductores. De pie, con la mirada al frente, con los pies apuntando ligeramente hacia afuera y algo más separados que las caderas, se sujeta la barra en pronación tras la cabeza sobre el trapecio y deltoides. Se baja flexionando las rodillas en dirección a los pies hasta que los muslos queden casi paralelos al suelo. El abdomen y el lumbar han de permanecer fuertemente contraídos. Los talones no se levantan. Se inspira al comenzar a bajar, se bloquea en inspiración y se espira al terminar de subir; se debe ventilar bien y repetir. Errores frecuentes: arquear la espalda en uno u otro sentido, dirigir las rodillas fuera de su eje de movimiento natural, bajar demasiado o realizar el ejercicio pesado sin ayuda de un compañero, extender los brazos a lo largo de la barra, apoyar la barra en partes óseas y no musculares, rebotar al bajar, bloquear al subir, sacar/dejar la barra del soporte forzando la espalda y adelantar mucho las rodillas, más que los pies en la bajada.</p>
+              </div>
+            </div>
+        </div>
+          
 
-        </div>
-        
+        <h3>Peso muerto</h3>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VLW-vK6ZF94"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Colócate de pie y abre las piernas en línea con la cadera y los hombros, colocando los pies ligeramente hacia afuera para ayudar al equilibrio.Con la espalda completamente recta, flexiona ligeramente las rodillas.Comienza a descender el cuerpo con la espalda recta e intentando que los muslos queden paralelos al cuerpo y los pies y la parte inferior de las piernas en ángulo recto.Mirando hacia el frente, mueve a la vez los hombros y la cadera al mismo tiempo que asciendes. Errores frecuentes: arquear la espalda al bajar, doblar las rodillas y trabajar con peso inadecuado.</p>
+              </div>
+            </div>
+          </div>
+
+
         <h3>Goblet squat</h3>
-        <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/SpMrPG3RiCQ" title="SENTADILLA GOBLET MANCUERNA | DUMBELL SQUAT  ✅ APRENDE LA TÉCNICA CORRECTA  **ERRORES COMUNES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Este ejercicio es una variante de la sentadilla.Inicia en posición vertical. Los pies ligeramente más separados que la distancia de la cadera. Sostén la pesa rusa con tus manos en forma de copa. Pega tus brazos sobre el torso y la pesa sobre tu pecho. Deberás formar un bloque. Contrae tu abdomen y mantén la espalda recta en todo momento. El movimiento comienza desplazando ligeramente la cadera hacia atrás. Esto marcará el inicio de la sentadilla. Recuerda mantener la pesa rusa cerca de tu cuerpo durante todo el movimiento. Mientras más alejado esté el mismo, mayor desgaste y riesgo de lesión. Continúa descendiendo en posición de sentadillas hasta romper el paralelo (la cadera sobrepasa la línea que forma con las rodillas). Luego, se vuelve a la posición inicial en el mismo bloque. Errores frecuentes: alejar el objeto de nuestro núcleo, excesiva inclinación, levantar talones, valgo de rodillas, no romper el paralelo.</p>
-        </div>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SpMrPG3RiCQ"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Este ejercicio es una variante de la sentadilla.Inicia en posición vertical. Los pies ligeramente más separados que la distancia de la cadera. Sostén la pesa rusa con tus manos en forma de copa. Pega tus brazos sobre el torso y la pesa sobre tu pecho. Deberás formar un bloque. Contrae tu abdomen y mantén la espalda recta en todo momento. El movimiento comienza desplazando ligeramente la cadera hacia atrás. Esto marcará el inicio de la sentadilla. Recuerda mantener la pesa rusa cerca de tu cuerpo durante todo el movimiento. Mientras más alejado esté el mismo, mayor desgaste y riesgo de lesión. Continúa descendiendo en posición de sentadillas hasta romper el paralelo (la cadera sobrepasa la línea que forma con las rodillas). Luego, se vuelve a la posición inicial en el mismo bloque. Errores frecuentes: alejar el objeto de nuestro núcleo, excesiva inclinación, levantar talones, valgo de rodillas, no romper el paralelo.</p>
+              </div>
+            </div>
+          </div>
+        
+        
         
         <h3>Extensión en máquina</h3>
-        <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/2UmUHUJmvEk" title="EXTENSIÓN de CUÁDRICEPS ❌ NO COMETAS ESTE ERROR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Nos colocamos sentados en el banco diseñado al efecto, con la parte superior de los tobillos bajo los topes acolchados. La parte posterior de la rodilla descansa en el borde del banco, en alineación con el eje de la máquina. Se levanta el peso, aproximadamente, desde los 90º hasta la extensión casi completa y se deja bajar en contracción excéntrica controlada. En cargas muy pesadas y en rehabilitación, se suele desaconsejar llevar la rodilla en gran flexión por la tensión que debe soportar. Se inspira al bajar y se espira al terminar de subir. Errores frecuentes: realizar un movimiento rápido para ayudarse de la inercia, bajar demasiado hasta tocar con el tope de la máquina y girar cadera/rodilla al tiempo que se mueve el peso.</p>
-        </div>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2UmUHUJmvEk"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Nos colocamos sentados en el banco diseñado al efecto, con la parte superior de los tobillos bajo los topes acolchados. La parte posterior de la rodilla descansa en el borde del banco, en alineación con el eje de la máquina. Se levanta el peso, aproximadamente, desde los 90º hasta la extensión casi completa y se deja bajar en contracción excéntrica controlada. En cargas muy pesadas y en rehabilitación, se suele desaconsejar llevar la rodilla en gran flexión por la tensión que debe soportar. Se inspira al bajar y se espira al terminar de subir. Errores frecuentes: realizar un movimiento rápido para ayudarse de la inercia, bajar demasiado hasta tocar con el tope de la máquina y girar cadera/rodilla al tiempo que se mueve el peso.</p>
+              </div>
+            </div>
+          </div>
+        
         
         <h3>Prensa</h3>
-        <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/OT7gKslX6pA" title="Ejecución para cuádriceps en prensa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Recostado sobre el banco inclinado de la prensa, con total apoyo de la espalda y de la cadera, los pies sobre la plataforma con una separación ligeramente mayor que la cadera y las puntas un poco abiertas, se desciende hasta acercar los muslos al tronco pero sin elevar la cadera del respaldo. De forma controlada pero enérgica, se vuelve a levantar hasta casi la máxima extensión. Se inspira en el primer tercio de la bajada y se espira al terminar de subir. Errores frecuentes: levantar la cadera al bajar, bloquear las rodillas en la posición más alta, realizar el recorrido incompleto o exagerado, trabajar con defecto o exceso de peso y efectuar un empuje desigual con ambas piernas</p>
-        </div>
-
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/OT7gKslX6pA"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Recostado sobre el banco inclinado de la prensa, con total apoyo de la espalda y de la cadera, los pies sobre la plataforma con una separación ligeramente mayor que la cadera y las puntas un poco abiertas, se desciende hasta acercar los muslos al tronco pero sin elevar la cadera del respaldo. De forma controlada pero enérgica, se vuelve a levantar hasta casi la máxima extensión. Se inspira en el primer tercio de la bajada y se espira al terminar de subir. Errores frecuentes: levantar la cadera al bajar, bloquear las rodillas en la posición más alta, realizar el recorrido incompleto o exagerado, trabajar con defecto o exceso de peso y efectuar un empuje desigual con ambas piernas</p>
+              </div>
+            </div>
+          </div>
+        
+        
         <h1> Enfoque isquiotibiales - gemelos</h1>
         
         <h3> Sillon de isquiotibiales</h3>
-        <div>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/las25kvbypw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Nos colocamos en decúbito prono (sobre el pecho y el vientre) en un banco no totalmente plano (con ligera flexión en la cadera) y se sujetan con las manos los agarres o el propio banco para estabilizarse. Con los pies en flexión plantar, se colocan los rodillos casi en los talones y las rodillas fuera del banco en alineación con el eje de la máquina. Desde casi la máxima extensión, se sube en flexión de rodilla todo lo posible (unos 120º), de forma controlada. Nunca se debe bajar hasta la máxima extensión. Se inspira al comenzar a extender y se espira al terminar de flexionar. Los errores mas frecuentes son extender demasiado la rodilla al bajar, subir muy rápido aprovechando el impulso, no colocar la rodilla en alineación con respecto al eje de la máquina y realizar una subida y una bajada del aparato de forma imprudente.</p>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/las25kvbypw"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Nos colocamos en decúbito prono (sobre el pecho y el vientre) en un banco no totalmente plano (con ligera flexión en la cadera) y se sujetan con las manos los agarres o el propio banco para estabilizarse. Con los pies en flexión plantar, se colocan los rodillos casi en los talones y las rodillas fuera del banco en alineación con el eje de la máquina. Desde casi la máxima extensión, se sube en flexión de rodilla todo lo posible (unos 120º), de forma controlada. Nunca se debe bajar hasta la máxima extensión. Se inspira al comenzar a extender y se espira al terminar de flexionar. Los errores mas frecuentes son extender demasiado la rodilla al bajar, subir muy rápido aprovechando el impulso, no colocar la rodilla en alineación con respecto al eje de la máquina y realizar una subida y una bajada del aparato de forma imprudente.</p>
+              </div>
+            </div>
+          </div>
+        
          
-        </div>   
-          
          <h3>Buenos dias</h3>
-         <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/HXNCRFsR7tY" title="Buenos dias con barra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Se coloca la barra en la zona alta de los trapecios y con los pies separados a la altura de los hombros. El movimiento comienza empujando las caderas hacia atrás a medida que nuestro torso se inclina hacia adelante. Durante el movimiento mantenemos la alineación de nuestra columna y sentimos un gran estiramiento en nuestros isquiosurales. Esta es la fase excéntrica, la cual termina con el torso paralelo o casi paralelo al suelo. Una vez hemos finalizado la fase excéntrica, nuestros isquiosurales estarán estirados al máximo y preparados para ejercer una gran contracción concéntrica y extender la cadera de nuevo. Mantén la activación del core en todo momento puesto que en la transición entre fase excéntrica y concéntrica es donde más actúan las fuerzas de cizalla en nuestra columna. Contrae tus isquiosurales y glúteos a medida que la cadera vuelve a extenderse y el torso recupera su verticalidad. Cuidado con no hiperextender la columna lumbar en el momento del bloqueo. Está bien que contraigas los glúteos al finalizar, pero no lo exageres puesto que puedes provocar una extensión excesiva de cadera.</p>
-         </div>
+         
+         <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HXNCRFsR7tY"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Nos colocamos en decúbito prono (sobre el pecho y el vientre) en un banco no totalmente plano (con ligera flexión en la cadera) y se sujetan con las manos los agarres o el propio banco para estabilizarse. Con los pies en flexión plantar, se colocan los rodillos casi en los talones y las rodillas fuera del banco en alineación con el eje de la máquina. Desde casi la máxima extensión, se sube en flexión de rodilla todo lo posible (unos 120º), de forma controlada. Nunca se debe bajar hasta la máxima extensión. Se inspira al comenzar a extender y se espira al terminar de flexionar. Los errores mas frecuentes son extender demasiado la rodilla al bajar, subir muy rápido aprovechando el impulso, no colocar la rodilla en alineación con respecto al eje de la máquina y realizar una subida y una bajada del aparato de forma imprudente.</p>
+              </div>
+            </div>
+          </div>
+         
          
         <h3>Gemelos en prensa</h3>
-         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mROxEgJV5D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Recostado sobre el banco inclinado de la prensa, con total apoyo de la espalda y de la cadera, los pies sobre la plataforma con apoyo en el soporte de medio pie (metatarso y dedos). La rodilla efectúa una levísima flexión para protegerla. Se realiza una flexión plantar procurando llevar el movimiento en todo su rango de recorrido. Al acabar, se debe flexionar la rodilla para descargar el peso antes de retirar alguno de los pies. La respiración se realiza de forma natural. Los errores mas frecuentes son dar rebotes sin llevar el peso controlado, realizar repeticiones insuficientes, trabajar con carga excesiva y apoyar poca superficie del pie (peligro de pérdida de apoyo).</p>
-         </div>
+         
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mROxEgJV5D0"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Recostado sobre el banco inclinado de la prensa, con total apoyo de la espalda y de la cadera, los pies sobre la plataforma con apoyo en el soporte de medio pie (metatarso y dedos). La rodilla efectúa una levísima flexión para protegerla. Se realiza una flexión plantar procurando llevar el movimiento en todo su rango de recorrido. Al acabar, se debe flexionar la rodilla para descargar el peso antes de retirar alguno de los pies. La respiración se realiza de forma natural. Los errores mas frecuentes son dar rebotes sin llevar el peso controlado, realizar repeticiones insuficientes, trabajar con carga excesiva y apoyar poca superficie del pie (peligro de pérdida de apoyo).</p>
+              </div>
+            </div>
+          </div>
+        
         
          <h3>Gemelos parado</h3>
-         <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/IfV1oO6yAAU" title="EXTENSIÓN DE TOBILLO EN MÁQUINA DE PIE GEMELOS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Nos colocamos de pie, con el metatarso apoyado en el borde de un escalón y con los pies a una distancia similar a la de las caderas. Desde la posición más baja, se efectúa una flexión plantar para elevar los talones y, con ellos, todo el cuerpo hasta la máxima altura. Luego, se deja bajar de forma controlada. Las rodillas permanecen con una mínima flexión para proteger la articulación. La respiración se realiza de forma natural, aunque ayuda a mantener una cadencia adecuada inspirar al bajar el cuerpo y espirar al terminar de subir. Los errores mas frecuentes son dar rebotes sin llevar el peso controlado, realizar repeticiones insuficientes, trabajar con carga excesiva, al acabar bajar un pie y luego el otro (se ha de flexionar las rodillas y descargar el peso) y mover rodillas y/o caderas y apoyar poca superficie del pie.</p>
-         </div>
+         
+         <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IfV1oO6yAAU"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Nos colocamos de pie, con el metatarso apoyado en el borde de un escalón y con los pies a una distancia similar a la de las caderas. Desde la posición más baja, se efectúa una flexión plantar para elevar los talones y, con ellos, todo el cuerpo hasta la máxima altura. Luego, se deja bajar de forma controlada. Las rodillas permanecen con una mínima flexión para proteger la articulación. La respiración se realiza de forma natural, aunque ayuda a mantener una cadencia adecuada inspirar al bajar el cuerpo y espirar al terminar de subir. Los errores mas frecuentes son dar rebotes sin llevar el peso controlado, realizar repeticiones insuficientes, trabajar con carga excesiva, al acabar bajar un pie y luego el otro (se ha de flexionar las rodillas y descargar el peso) y mover rodillas y/o caderas y apoyar poca superficie del pie.</p>
+              </div>
+            </div>
+          </div>
+         
          
          <h1>Enfoque gluteos y aductores</h1>
 
          <h3>Hip Thrust</h3>
-         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/1f7jzx2fMso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Coloca los pies a la anchura de las caderas, alineando en todo momento tobillo, rodilla y cadera. Apoya la espalda en el banco, justo debajo de las escápulas, el cuerpo hace de ''bisagra'' sobre el apoyo. Al elevar la cadera, disóciala de la columna, es decir, intenta que no se eleve el cuerpo desde la espalda. Fija un punto con tu mirada en frente de tus ojos. Evita la hiperextensión de la columna. Cuando eleves la cadera deberías tener tus tobillos y rodillas en una misma línea vertical y tus rodillas y caderas en una misma línea horizontal (formando un ángulo de 90º). Aguanta arriba durante 1'' y contrae tus glúteos. Al volver a la posición inicial, al bajar, no te dejes caer y controla el movimiento en todo momento. Este mismo ejercicio se puede realizar en el suelo si el banco te resulta incomodo. Se apoyan las escápulas sobre el suelo y los pies sobre un step para sumarle recorrido</p>
-         </div>
-        
+         
+         <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1f7jzx2fMso"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Coloca los pies a la anchura de las caderas, alineando en todo momento tobillo, rodilla y cadera. Apoya la espalda en el banco, justo debajo de las escápulas, el cuerpo hace de ''bisagra'' sobre el apoyo. Al elevar la cadera, disóciala de la columna, es decir, intenta que no se eleve el cuerpo desde la espalda. Fija un punto con tu mirada en frente de tus ojos. Evita la hiperextensión de la columna. Cuando eleves la cadera deberías tener tus tobillos y rodillas en una misma línea vertical y tus rodillas y caderas en una misma línea horizontal (formando un ángulo de 90º). Aguanta arriba durante 1'' y contrae tus glúteos. Al volver a la posición inicial, al bajar, no te dejes caer y controla el movimiento en todo momento. Este mismo ejercicio se puede realizar en el suelo si el banco te resulta incomodo. Se apoyan las escápulas sobre el suelo y los pies sobre un step para sumarle recorrido</p>
+              </div>
+            </div>
+          </div>
+         
+         
          <h3>Bulgaras</h3>
-         <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/N-uhG1Tih1g" title="[Glúteos] Cómo hacer la sentadilla búlgara perfecta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Colocamos el pie encima del banco o silla o soporte donde nos vayamos a apoyar y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados. Cuantos más grados dejemos en la flexión más activaremos los glúteos, y cuanta menos amplitud, fortaleceremos más los cuádriceps. Como en este caso estamos haciendo enfoque en los glúteos, se baja deslizando hacia atrás, con la espalda recta, pero un poco más inclinados y la rodilla alineada con los tobillos siempre.</p>
-         </div>
-        
+         
+         <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N-uhG1Tih1g"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Colocamos el pie encima del banco o silla o soporte donde nos vayamos a apoyar y, manteniendo el pecho alto, bajamos la rodilla al suelo mientras la otra pierna hace una flexión de 90 grados. Cuantos más grados dejemos en la flexión más activaremos los glúteos, y cuanta menos amplitud, fortaleceremos más los cuádriceps. Como en este caso estamos haciendo enfoque en los glúteos, se baja deslizando hacia atrás, con la espalda recta, pero un poco más inclinados y la rodilla alineada con los tobillos siempre.</p>
+              </div>
+            </div>
+          </div>
+         
+    
         <h3>Aductores en maquina</h3>
-        <div>
-            <iframe width="320" height="560" src="https://www.youtube.com/embed/76uNT_VMhPI" title="Cómo utilizar máquina de aductores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>Sentado en la máquina de aductores, con los soportes en la cara interna de los tobillos o de las rodillas (según diseño), se abre hasta el punto que permita la movilidad articular y se cierra en aducción. La respiración se realiza de forma natural o, si se utiliza mucho peso, se inspira al abrir y se espira al terminar de cerrar. Los errores mas frecuentes son peso insuficiente, movimientos rápidos y excesiva apertura.</p>
-        </div>
-        
+       
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6 order-lg-1 order-2">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/76uNT_VMhPI"></iframe>
+                </div>
+              </div>
+              <div class="col-lg-6 order-lg-2 order-1">
+                <p>Sentado en la máquina de aductores, con los soportes en la cara interna de los tobillos o de las rodillas (según diseño), se abre hasta el punto que permita la movilidad articular y se cierra en aducción. La respiración se realiza de forma natural o, si se utiliza mucho peso, se inspira al abrir y se espira al terminar de cerrar. Los errores mas frecuentes son peso insuficiente, movimientos rápidos y excesiva apertura.</p>
+              </div>
+            </div>
+          </div>
+       
+       
         
     </div>
 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

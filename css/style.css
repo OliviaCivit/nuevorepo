@@ -23,15 +23,9 @@
 
 .barra-mia {
     background-color:antiquewhite;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Instrument Serif', serif;
     font-weight: bold;
 }
-
-.fondo-adaptado {
-    background-image: url(../img/GettyImages-601902710.webp);
-    background-repeat: no-repeat;
-}
-
 
 section main div h1 {
     color: white;
@@ -101,7 +95,7 @@ h3{
     color: black;
     display: inline-block;
     text-align: justify;
-    margin-left: 50px;
+    
     margin-right: 30px;
     font-size: 20px;
     margin-top: 50px;
@@ -110,4 +104,3 @@ h3{
 main div div {
     display: flex;
 }
-
